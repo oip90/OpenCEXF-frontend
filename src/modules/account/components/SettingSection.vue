@@ -152,6 +152,7 @@
           </button>
         </div>
       </div>
+       <!--  удалить для активации смс подтверждения и так же удалить строку :disabled="!profile?.sms_enabled"
       <div v-if="profile?.sms_enabled" class="table__row walletTable__item1">
         <div
           class="walletTable__item_val1"
@@ -165,6 +166,7 @@
             class="opacitychangebtn"
             style="background-color: #e34848"
             :style="mainColor ? `background: ${cancelColor} !important` : {}"
+            :disabled="!profile?.sms_enabled"
             @click="sendPhone"
           >
             {{ $t("common.turnoff") }}
@@ -173,12 +175,14 @@
             v-else
             class="opacitychangebtn"
             :style="mainColor ? `background: ${mainColor} !important` : {}"
+            :disabled="!profile?.sms_enabled"
             @click="sendPhone"
           >
             {{ $t("common.turnon") }}
           </button>
         </div>
       </div>
+  -->
     </div>
     <div v-if="twofaStepNumber === 2" style="height: 444px">
       <div style="position: relative">
