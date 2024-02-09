@@ -152,6 +152,7 @@
           </button>
         </div>
       </div>
+      <!--
       <div v-if="profile?.sms_enabled" class="table__row walletTable__item1">
         <div
           class="walletTable__item_val1"
@@ -181,7 +182,8 @@
           </button>
         </div>
       </div>
-    </div>
+-->    
+	</div>
     <div v-if="twofaStepNumber === 2" style="height: 444px">
       <div style="position: relative">
         <div style="top: 0; left: 0; width: 100%">
