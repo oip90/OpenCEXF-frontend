@@ -42,7 +42,6 @@
                 >
                   Bad
                 </span>
-                <!--
                 <router-link
                   v-else-if="kycBtnVerifyEnabled"
                   to="/kyc"
@@ -50,7 +49,6 @@
                 >
                   {{ $t("common.kyc_verify") }}
                 </router-link>
--->
               </div>
             </div>
           </div>

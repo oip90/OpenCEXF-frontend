@@ -152,7 +152,6 @@
           </button>
         </div>
       </div>
-       <!--  удалить для активации смс подтверждения и так же удалить строку :disabled="!profile?.sms_enabled"
       <div v-if="profile?.sms_enabled" class="table__row walletTable__item1">
         <div
           class="walletTable__item_val1"
@@ -182,7 +181,6 @@
           </button>
         </div>
       </div>
-  -->
     </div>
     <div v-if="twofaStepNumber === 2" style="height: 444px">
       <div style="position: relative">
