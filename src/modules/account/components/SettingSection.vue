@@ -152,15 +152,13 @@
           </button>
         </div>
       </div>
-      <div v-if="profile?.sms_enabled" class="table__row walletTable__item1"
-        <!-- 
+      <div v-if="profile?.sms_enabled" class="table__row walletTable__item1">
         <div
           class="walletTable__item_val1"
           style="line-height: 1; width: 75%; font-size: 16px"
         >
           {{ $t("common.confirm_withdrawals_by_sms") }}
         </div>
--->
         <div class="table__button">
           <button
             v-if="profile.withdrawals_sms_confirmation"
