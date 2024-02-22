@@ -1,8 +1,3 @@
-//###########################################################################
-//   OpenCEX Frontend configuration file. More info
-//   https://polygant.notion.site/Settings-3f9e0aae880e433a9d23e76f62a4a456
-//###########################################################################
-
 const localConfig = {
   wss_url: "wss://",
   two_fa: "${PROJECT_NAME}",

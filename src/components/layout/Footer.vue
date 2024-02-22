@@ -10,6 +10,7 @@
           <div class="rights !mb-2">{{ $t("common.built_by") }}</div>
           <div class="rights">{{ $t("common.rights") }}</div>
           <div class="footer__socials-container">
+            <!--
             <a
               v-if="
                 localConfig.socials.facebook &&
@@ -37,6 +38,7 @@
               </span>
               {{ localConfig.socials.facebook.link }}
             </a>
+-->
             <a
               v-if="
                 localConfig.socials.twitter &&
@@ -47,16 +49,15 @@
             >
               <span class="pl-1">
                 <svg
+                  style="color: rgb(42, 34, 89)"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="10"
-                  viewBox="0 0 12 17"
+                  viewBox="0 0 24 24"
+                  version="1.1"
                 >
                   <path
-                    d="M4 11c0 1.7 1.2 2 1.8 2H10c1.1 0 2 .9 2 2s-.9 2-2 2H6c-1.7 0-3.1-.6-4.3-1.9C.6 13.9 0 12.4 0 10.6V2C0 .9.9 0 2 0s2 .9 2 2v3h6c1.1 0 2 .9 2 2s-.9 2-2 2H4v2z"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    fill="#42a4ff"
-                  />
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    fill="#2a2259"
+                  ></path>
                 </svg>
               </span>
               {{ localConfig.socials.twitter.link }}
